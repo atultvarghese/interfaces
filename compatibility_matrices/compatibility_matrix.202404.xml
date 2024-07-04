@@ -153,6 +153,13 @@
             <name>IBluetoothFinder</name>
             <instance>default</instance>
         </interface>
+    </hal><hal format="aidl" optional="true">
+        <name>android.hardware.invcase</name>
+        <version>1</version>
+        <interface>
+            <name>IInvcase</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <hal format="aidl">
         <name>android.hardware.bluetooth.lmp_event</name>
@@ -706,6 +713,14 @@
         <version>5.0</version>
         <interface>
             <regex-instance>.*</regex-instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.invcase</name>
+        <version>1</version>
+        <interface>
+            <name>IInvcase</name>
+            <instance>default</instance>
         </interface>
     </hal>
 </compatibility-matrix>
